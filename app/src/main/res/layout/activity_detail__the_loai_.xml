@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".activity.Detail_TheLoai_Activity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:src="@drawable/logo" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên Thể Loại"
+        android:id="@+id/edTLDetail"
+        />
+
+    <EditText
+        android:id="@+id/edMTDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mô tả"/>
+
+    <EditText
+        android:id="@+id/edVitriDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vị trí"/>
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="updateTL"
+            android:id="@+id/btnSua"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:text="SỬA" />
+
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:onClick="huy"
+            android:text="HỦY" />
+    </LinearLayout>
+
+    <Button
+        android:onClick="listTL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hiển Thị Thể Loại"/>
+</LinearLayout>

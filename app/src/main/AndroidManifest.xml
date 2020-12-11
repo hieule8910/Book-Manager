@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ass_bookmanager_hieu">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.ass_bookmanager_hieu.Welcome_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.ass_bookmanager_hieu.activity.DoanhThu_Activity" />
+        <activity android:name="com.example.ass_bookmanager_hieu.activity.TopSach_Activity" />
+        <activity android:name="com.example.ass_bookmanager_hieu.activity.Detail_HDCT_Activity" />
+        <activity android:name="com.example.ass_bookmanager_hieu.activity.Add_HDCT_Activity" />
+        <activity android:name="com.example.ass_bookmanager_hieu.activity.Add_HoaDon_Activity" />
+        <activity android:name="com.example.ass_bookmanager_hieu.activity.List_HoaDon_Activity" />
+        <activity android:name="com.example.ass_bookmanager_hieu.activity.Detail_Sach_Activity" />
+        <activity android:name="com.example.ass_bookmanager_hieu.activity.Add_Sach_Activity" />
+        <activity android:name="com.example.ass_bookmanager_hieu.activity.List_Sach_Activity" />
+        <activity android:name="com.example.ass_bookmanager_hieu.activity.Detail_TheLoai_Activity" />
+        <activity android:name="com.example.ass_bookmanager_hieu.activity.Add_Theloai_Activity" />
+        <activity android:name="com.example.ass_bookmanager_hieu.activity.List_TheLoai_Activity" />
+        <activity android:name="com.example.ass_bookmanager_hieu.activity.Doi_MatKhau_Activity" />
+        <activity android:name="com.example.ass_bookmanager_hieu.Login_Activity" />
+        <activity android:name="com.example.ass_bookmanager_hieu.activity.Detail_NguoiDung_Activity" />
+        <activity android:name="com.example.ass_bookmanager_hieu.activity.Add_NguoiDung_Activity" />
+        <activity android:name="com.example.ass_bookmanager_hieu.activity.List_NguoiDung_Activity" />
+        <activity android:name="com.example.ass_bookmanager_hieu.MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>
